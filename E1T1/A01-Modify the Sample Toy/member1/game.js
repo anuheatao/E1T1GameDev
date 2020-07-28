@@ -90,7 +90,7 @@ PS.touch = function( x, y, data, options ) {
 	
 	// Decide what the next color should be
 	
-	if ( data === PS.COLOR_BLACK ) {
+	if ( data === PS.COLOR_BLUE ) {
 		next = PS.COLOR_WHITE;
 	} else {
 		next = PS.COLOR_BLACK;
